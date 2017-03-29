@@ -35,7 +35,7 @@ initApp = function() {
 
         // this is for more user/site control
         user.getToken().then(function(accessToken) {
-          document.getElementById("email_test").innerHTML= "email: <u>" + email + "</u>";
+          document.getElementById("email_test").innerHTML= "email: <u>bucknamj8@students.rowan.edu</u>";
         });
 
         // update navbar
