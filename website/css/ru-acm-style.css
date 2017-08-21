@@ -1,0 +1,39 @@
+//Until we use SASS for the site, here are some 'variables', lol
+
+//rowan acm blue: rgb(66, 133, 244)
+//rowan gold: #FCCD2F
+
+.ru-acm-header {
+	background-color: rgb(66, 133, 244) !important;
+}
+
+.ru-acm-logo-small {
+	margin-top: -5px;
+	height: 30px;
+	width: 30px;
+	content: url(../img/logo_small.png);
+	display: block;
+}
+
+.ru-acm-navbar {
+	background: rgb(66,133,244); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(66,133,244,1) 91%, rgba(96,171,248,1) 93%, rgba(96,171,248,1) 93%, rgba(64,150,238,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(66,133,244,1) 91%,rgba(96,171,248,1) 93%,rgba(96,171,248,1) 93%,rgba(64,150,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(66,133,244,1) 91%,rgba(96,171,248,1) 93%,rgba(96,171,248,1) 93%,rgba(64,150,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4285f4', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+	margin-bottom: 100px;
+}
+
+.navbar-default .navbar-nav > li > a , .navbar-header .navbar-text {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-header > a:hover, .navbar-header > a:focus {
+    background: linear-gradient(to bottom, yellow, #FCCD2F);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.navbar-default {
+	font-family: 'Catamaran', sans-serif;
+}

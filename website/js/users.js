@@ -42,11 +42,12 @@ initApp = function() {
         var navBar = document.getElementById("navContainer");
         navBar.innerHTML =
         '<div class="navbar-header page-scroll">' +
-            '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">' +
-                '<span class="sr-only">Toggle navigation</span>' +
-                'Menu <i class="fa fa-bars"></i>' +
-            '</button>' +
-            '<a class="navbar-brand" href="attendance/index.html">Attendance</a>' +
+          '<span class="navbar-brand"><div class="ru-acm-logo-small"></div></span>'+
+          '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">' +
+              '<span class="sr-only">Toggle navigation</span>' +
+              'Menu <i class="fa fa-bars"></i>' +
+          '</button>' +
+          '<a class="navbar-brand" href="attendance/index.html">Attendance</a>' +
         '</div>' +
         '<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">' +
         '<ul class="nav navbar-nav navbar-right">' +
@@ -76,23 +77,24 @@ initApp = function() {
       var navBar = document.getElementById("navContainer");
       navBar.innerHTML =
       '<div class="navbar-header page-scroll">' +
+          '<span class="navbar-brand"><a class="ru-acm-logo-small" href="index.html"></a></span>'+
           '<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">' +
               '<span class="sr-only">Toggle navigation</span>' +
               'Menu <i class="fa fa-bars"></i>' +
           '</button>' +
-          '<a class="navbar-brand" href="attendance/index.html">Attendance</a>' +
+          '<span class="navbar-text site-header">Rowan ACM Website</span>'+
       '</div>' +
       '<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">' +
           '<ul class="nav navbar-nav navbar-right">' +
               '<li>' +
-                  '<a href="index.html">Home</a>' +
+                '<a href="attendance/index.html">Attendance</a>' +
               '</li>' +
               '<li>' +
                 '<a href="committees.html">Committees</a>' +
               '</li>' +
-			  '<li>' +
+              '<li>' +
                 '<a href="eboard.html">Eboard</a>' +
-            '</li>' +
+              '</li>' +
               '<li>' +
               '<a href="https://rowanacm.slack.com/">Slack</a>' +
               '</li>' +
@@ -102,8 +104,6 @@ initApp = function() {
               '<li>' +
                   '<a href="register.html">Register</a>' +
               '</li>' +
-
-
           '</ul>' +
       '</div>';
     }
